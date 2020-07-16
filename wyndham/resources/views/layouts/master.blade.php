@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html id="ctl00_martigroup" lang="en">
 
-<head>
+<head> 
         <title>
                 TRYP By Wyndham İstanbul Topkapı
         </title>
@@ -42,16 +42,16 @@
                 <header class="fixed-top">
                         <div class="container-fluid pad_remove header-menu">
                                 <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0">
-                                        <a class="navbar-brand" href="../web_site/index.html">
+                                        <a class="navbar-brand" href="{{route('index')}}">
                                                 <img src="{{asset('assets/images/logo.png')}}" style="max-width: 143px;"
                                                         class="header-logo d-none d-md-block">
                                                 <img src="{{asset('assets/images/logo.png')}}" class="d-md-none d-lg-none d-xl-none logos">
                                         </a>
                                         <div class='dropdown mobilebox'>
-                                                <a style='margin-left:10px;' href='index.html'>
+                                                <a style='margin-left:10px;' href='#'>
                                                         <img src="{{asset('assets/images/TR.png')}}" />
                                                 </a>
-                                                <a style='margin-left:10px;' href='index.html'><img src="{{asset('assets/images/EN.png')}}" />
+                                                <a style='margin-left:10px;' href='#'><img src="{{asset('assets/images/EN.png')}}" />
                                                 </a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -72,22 +72,22 @@
                                                         </li>
                                                         <li class='nav-item'>
                                                                 <a class='nav-link hovers' href="{{route('ourhotel')}}"
-                                                                        target='_self' title='OUR HOTEL'>OTELİMİZ
+                                                                        target='_self' title='OUR HOTEL'>{{__('general.our')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="content-pages/rooms.html"
-                                                                        target='_self' title='ROOMS'>ODALAR
+                                                                <a class='nav-link hovers' href="{{route('rooms')}}"
+                                                                        target='_self' title='ROOMS'>{{__('general.rooms')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="content-pages/facilities.html"
-                                                                        target='_self' title='FACILITIES'>HİZMETLER
+                                                                <a class='nav-link hovers' href="{{route('facilities')}}"
+                                                                        target='_self' title='FACILITIES'>{{__('general.facilities')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="content-pages/contact.html"
-                                                                        target='_self' title='CONTACT'>İLETİŞİM
+                                                                <a class='nav-link hovers' href="{{route('contact')}}"
+                                                                        target='_self' title='CONTACT'>{{__('general.contact')}}
                                                                 </a>
                                                         </li>
                                                 </ul>
@@ -102,7 +102,7 @@
                                                 <a href="#" class="btn-private header-private-button" data-toggle="modal"
                                                         data-target="#homepage_mod"
                                                         style="border-radius: 10px;border-top-right-radius: 0px;border-bottom-left-radius: 0px;background:#fae100 !important; color:#252525;margin-right: 15px;">
-                                                        REZERVASYON
+                                                        {{__('general.booknow')}}
                                                 </a>
                                         </div>
                                 </nav>
@@ -122,20 +122,20 @@
                                         <div class="col-md-4 text-center">
                                                 <ul class='horizontal_menu'>
                                                         <li>
-                                                                <a href='../web_site/footer/terms-conditions.html' target='_self'
+                                                                <a href="{{route('terms')}}" target='_self'
                                                                         title='Terms & Conditions'>
-                                                                        Terms & Conditions/
+                                                                        {{__('general.terms')}}
                                                                 </a>
                                                         </li>
                                                         <li>
-                                                                <a href='../web_site/footer/privacy-policy.html footer/privacy-policy.html' target='_self'
+                                                                <a href="{{route('privacy')}}" target='_self'
                                                                         title='Privacy Policy'>
-                                                                        Privacy Policy/
+                                                                        {{__('general.privacyp')}}
                                                                 </a>
                                                         </li>
                                                         <li>
-                                                                <a href='../web_site/footer/disclamer.html' target='_self' title='Disclamer'>
-                                                                        Disclamer
+                                                                <a href="{{route('disclamer')}}"target='_self' title='Disclamer'>
+                                                                {{__('general.disc')}}
                                                                 </a>
                                                         </li>
                                                 </ul>
@@ -155,7 +155,7 @@
                         <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                         <div class="modal-header">
-                                                <h5 class="modal-title" id="homepage_mod">REZERVASYON</h5>
+                                                <h5 class="modal-title" id="homepage_mod"> {{__('general.booknow')}}</h5>
                                                 <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
@@ -164,26 +164,16 @@
                                         <div class="modal-body">
                                                 <div class="form booking-form formelements">
                                                         <div class="form-group">
-                                                                <label class="control-label" for="childs">
-                                                                        Tarih aralığını seçin...
-                                                                </label>
+                                                                <label class="control-label" for="childs">{{__('general.date')}}</label>
                                                                 <input type="text" name="daterange" id="daterangex">
                                                         </div>
-                                                        <div class="form-group "
-                                                                style="width: 50%;display: inline-block;padding-right:10px;float: left;">
-                                                                <label class="control-label" for="adults">
-                                                                        Yetişkin sayısı...
-                                                                </label>
-                                                                <input type="number" name="adults" id="adults"
-                                                                        class="inputfocus">
-                                                                <input type="hidden" name="formbilgi" id="formbilgi"
-                                                                        value="rezervasyon2">
+                                                        <div class="form-group "style="width: 50%;display: inline-block;padding-right:10px;float: left;">
+                                                                <label class="control-label" for="adults">{{__('general.adult')}}</label>
+                                                                <input type="number" name="adults" id="adults" class="inputfocus">
+                                                                <input type="hidden" name="formbilgi" id="formbilgi"value="rezervasyon2">
                                                         </div>
-                                                        <div class="form-group "
-                                                                style="width: 50%;display: inline-block;padding-left:10px;float: left;">
-                                                                <label class="control-label" for="childs">
-                                                                        Çocuk sayısı...
-                                                                </label>
+                                                        <div class="form-group " style="width: 50%;display: inline-block;padding-left:10px;float: left;">
+                                                                <label class="control-label" for="childs">{{__('general.child')}}</label>
                                                                 <input type="number" name="childs" id="childs">
                                                         </div>
                                                         <div class="form-group"></div>

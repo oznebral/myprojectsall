@@ -78,28 +78,15 @@
                                 </p>
                         </div>
                         <div class="col-md-6" style="padding-right: 15px !important;">
-                                <h3>OTELİMİZ</h3>
+                                <h3>{{__('general.our')}}</h3>
                                 <p>
                                 <p>
-                                        <span style="font-size:18px;">Wyndham Hotels &amp;
-                                                Resorts chain in Turkey and opened the fourth
-                                                Tryp By Wyndham Ankara; Çankaya Oran, which is
-                                                the center of modern life and entertainment, is
-                                                located in Diplomatic region, 30 minutes to
-                                                Esenboğa Airport and 15 minutes to the city
-                                                center. It is within walking distance of Panora
-                                                Shopping Center.</span></p>
+                                        <span style="font-size:18px;">{{__('general.ourh1')}}</span></p>
                                 <p>
-                                        <span style="font-size:18px;">Tryp By Wyndham Ankara is
-                                                committed to providing you with the confidence,
-                                                peace and quality of your business trip.</span>
+                                        <span style="font-size:18px;">{{__('general.ourh2')}}</span>
                                 </p>
                                 <p>
-                                        <span style="font-size:18px;">The 46 rooms at the Tryp
-                                                By Wyndham Ankara have its own style and modern
-                                                amenities. There are 30 standard rooms, 15
-                                                Deluxe rooms and 1 Terrace Suite room in our
-                                                hotel which has four types of rooms.</span></p>
+                                        <span style="font-size:18px;">{{__('general.ourh3')}}</span></p>
                                 </p>
                         </div>
                 </div>

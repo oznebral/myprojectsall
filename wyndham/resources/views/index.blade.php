@@ -127,45 +127,17 @@
                                                         </p>
                                                 </div>
                                                 <div class="col-md-6" style="padding-right: 15px !important;">
-                                                        <h3>Otelimiz</h3>
+                                                        <h3>{{__('general.ourhotel')}}</h3>
                                                         <p>
-                                                        <p>
-                                                                <span style="font-size:18px;">Otelimiz &amp;
-                                                                        Wyndham Hotels & Resorts zincirinde bulunan TRYP
-                                                                        by Wyndham İstanbul
-                                                                        Topkapı'da tam hizmet veren spa ve diğer
-                                                                        rahatlatıcı olanakların keyfini
-                                                                        çıkarırken şehrin merkezinde konaklayın. Marmara
-                                                                        Forum AVM'ye birkaç dakika
-                                                                        uzaklıktaki sigara içilmeyen otelimiz, Eski
-                                                                        İstanbul bölgesindeki tarihi
-                                                                        Sultanahmet'e ve hareketli Taksim Meydanı'ndaki
-                                                                        mağazalar, restoranlar ve gece hayatına
-                                                                        yakındır. İş amaçlı seyahat edenler, TÜYAP
-                                                                        Kongre ve Fuar Merkezi'ne ve İstanbul Dünya
-                                                                        Ticaret Merkezi'ne kolayca ulaşabilir. Bölgeye
-                                                                        uçakla geliyorsanız yakındaki İstanbul
-                                                                        Havalimanı'na (IST) uygun ücret karşılığında
-                                                                        7/24 servis hizmeti sunarız. .
-                                                                </span>
-                                                        </p>
-                                                        <p>
-                                                                <span style="font-size:18px;">Tryp By Wyndham İstanbul
-                                                                        Topkapı, iş seyahatlerinizde
-                                                                        güven, huzur ve kaliteyi sizlerle buluşturmayı
-                                                                        amaçlamaktadır.
-
-                                                                </span>
-                                                        </p>
-                                                        <p>
-                                                                <span style="font-size:18px;">Tryp By Wyndham İstanbul
-                                                                        Topkapı’ nın 78 odası kendi tarzına
-                                                                        ve modern olanaklara sahiptir. Standart , Deluxe
-                                                                        , Fitness , Media , Aile ve Suit
-                                                                        odalarımız bu olanaklara sahip olan oda
-                                                                        tiplerimizdir.
-                                                                </span>
-                                                        </p>
+                                                                <p>
+                                                                        <span style="font-size:18px;">{{__('general.ourhotel')}} &amp;{{__('general.mainpage1')}}</span>
+                                                                </p>
+                                                                <p>
+                                                                        <span style="font-size:18px;">{{__('general.mainpage2')}}</span>
+                                                                </p>
+                                                                <p>
+                                                                        <span style="font-size:18px;">{{__('general.mainpage2')}}</span>
+                                                                </p>
                                                         </p>
                                                 </div>
                                         </div>
@@ -176,13 +148,13 @@
                                         <div class='row padremove-bottom rooms_class'>
                                                 <div class='col-md-6'>
                                                         <div class='col-md-12 pad_remove galeris' style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 Q Suite - 1437783.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/standart-room.html'>
+                                                                <a class='' href="{{route('standartroom')}}">
                                                                         <div class='near text-center lineheightoda'>
                                                                                 <div class='title-block'>
-                                                                                        <p>STANDART ODA</p>
+                                                                                        <p>{{__('general.stroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>STANDART ODA</h2>
+                                                                                        <h2>{{__('general.stroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn' href=''>MORE</i>
                                                                                 </div>
@@ -192,14 +164,14 @@
                                                 </div>
                                                 <div class='col-md-6'>
                                                         <div class='col-md-12 pad_remove galeris'
-                                                        style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 2 T Accessible - 1437758.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/deluxe-room.html'>
+                                                        style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}');height: 345.5px;">
+                                                                <a class='' href="{{route('deluxeroom')}}">
                                                                         <div class='near text-center lineheightoda'>
                                                                                 <div class='title-block'>
-                                                                                        <p>DELUXE ODA</p>
+                                                                                        <p>{{__('general.dxroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>DELUXE ODA</h2>
+                                                                                        <h2>{{__('general.dxroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn' href=''>MORE</i>
                                                                                 </div>
@@ -210,13 +182,13 @@
                                                 <div class='col-md-6 alt'>
                                                         <div class='col-md-12 pad_remove galeris'
                                                         style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/social-are.html'>
+                                                                <a class='' href="{{route('lobby')}}">
                                                                         <div class='near text-center lineheight'>
                                                                                 <div class='title-block'>
-                                                                                        <p>SOCIAL AREA (LOBİ)</p>
+                                                                                        <p>{{__('general.sroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>SOCIAL AREA (LOBİ)</h2>
+                                                                                        <h2>{{__('general.sroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn'
                                                                                                 href='/en/rooms/deluxe-rooms'>MORE</i>
@@ -228,13 +200,13 @@
                                                 <div class='col-md-6 alt'>
                                                         <div class='col-md-12 pad_remove galeris'
                                                         style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/a-la-carte-restaurant.html'>
+                                                                <a class='' href="{{route('restaurant')}}">
                                                                         <div class='near text-center lineheight'>
                                                                                 <div class='title-block'>
-                                                                                        <p>A LA CARTE RESTAURANT</p>
+                                                                                        <p>{{__('general.res')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>A LA CARTE RESTAURANT</h2>
+                                                                                        <h2>{{__('general.res')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn'
                                                                                                 href='/en/rooms/deluxe-rooms'>MORE</i>
@@ -246,13 +218,13 @@
                                                 <div class='col-md-6 alt'>
                                                         <div class='col-md-12 pad_remove galeris'
                                                         style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Long Boardroom Table - 1437736.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/meeting-room.html'>
+                                                                <a class='' href="{{route('meetingroom')}}">
                                                                         <div class='near text-center lineheight'>
                                                                                 <div class='title-block'>
-                                                                                        <p>TOPLANTI SALONU</p>
+                                                                                        <p>{{__('general.mtroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>TOPLANTI SALONU</h2>
+                                                                                        <h2>{{__('general.mtroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn'
                                                                                                 href='/en/rooms/deluxe-rooms'>MORE</i>
@@ -264,13 +236,13 @@
                                                 <div class='col-md-6 alt'>
                                                         <div class='col-md-12 pad_remove galeris'
                                                         style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/mediaroom.html'>
+                                                                <a class='' href="{{route('mediaroom')}}">
                                                                         <div class='near text-center lineheight'>
                                                                                 <div class='title-block'>
-                                                                                        <p>MEDYA ODASI</p>
+                                                                                        <p>{{__('general.mdroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>MEDYA ODASI</h2>
+                                                                                        <h2>{{__('general.mdroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn'
                                                                                                 href='/en/rooms/deluxe-rooms'>MORE</i>
@@ -282,13 +254,31 @@
                                                 <div class='col-md-6 alt'>
                                                         <div class='col-md-12 pad_remove galeris'
                                                         style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');height: 345.5px;">
-                                                                <a class='' href='room-pages/ballrom.html'>
+                                                                <a class='' href="{{route('ballroom')}}">
                                                                         <div class='near text-center lineheight'>
                                                                                 <div class='title-block'>
-                                                                                        <p>BALO SALONU</p>
+                                                                                        <p>{{__('general.blroom')}}</p>
                                                                                 </div>
                                                                                 <div class='detailsx'>
-                                                                                        <h2>BALO SALONU</h2>
+                                                                                        <h2>{{__('general.blroom')}}</h2>
+                                                                                        <span></span>
+                                                                                        <i class='btn'
+                                                                                                href='/en/rooms/deluxe-rooms'>MORE</i>
+                                                                                </div>
+                                                                        </div>
+                                                                </a>
+                                                        </div>
+                                                </div>
+                                                <div class='col-md-6 alt'>
+                                                        <div class='col-md-12 pad_remove galeris'
+                                                        style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Fitness Center - 1437716.jpg')}}');height: 345.5px;">
+                                                                <a class='' href="{{route('fitness')}}">
+                                                                        <div class='near text-center lineheight'>
+                                                                                <div class='title-block'>
+                                                                                        <p>{{__('general.ftroom')}}</p>
+                                                                                </div>
+                                                                                <div class='detailsx'>
+                                                                                        <h2>{{__('general.ftroom')}}</h2>
                                                                                         <span></span>
                                                                                         <i class='btn'
                                                                                                 href='/en/rooms/deluxe-rooms'>MORE</i>

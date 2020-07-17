@@ -35,3 +35,4 @@ Route::get('/disclamer-page','GeneralController@disclamer')->name('disclamer');
 
 
 
+

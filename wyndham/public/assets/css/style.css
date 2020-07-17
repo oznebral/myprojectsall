@@ -854,24 +854,24 @@ input:valid ~ .control-label{
     left: 0;
     }
 
-   .bgkoy {
+   .bgput {
     width: 100%!important;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 245px;
     background-position: center top;
     }
-    .carouselgeri, .carouselileri {
+    .carouselback, .carouselforward {
     background: #21304d;
     top: 50%;
     bottom: auto;
     width: auto;
     padding: 10px;
     }
-    .carouselileri {
+    .carouselforward {
     right: 7%;
     }
-    .carouselgeri {
+    .carouselback {
     left: 7%;
     }
     .mobilebox {

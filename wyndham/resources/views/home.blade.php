@@ -49,11 +49,11 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <a class="carousel-control-prev carouselgeri" href="#carouselhome"
+                                                <a class="carousel-control-prev carouselback" href="#carouselhome"
                                                         data-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                 </a>
-                                                <a class="carousel-control-next carouselileri" href="#carouselhome"
+                                                <a class="carousel-control-next carouselforward" href="#carouselhome"
                                                         data-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                 </a>

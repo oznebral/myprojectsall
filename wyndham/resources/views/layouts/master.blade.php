@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html id="ctl00_martigroup" lang="en">
-
 <head> 
         <title>
-                TRYP By Wyndham İstanbul Topkapı
+                {{__('general.tryp-by-wyndham-istanbul')}}
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}"/>
-        
 </head>
 <body>
         <div class="loading"
@@ -33,8 +31,7 @@
         </div>
         <form name="aspnetForm" method="post" action="/Default.aspx" id="aspnetForm">
                 <div>
-                        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-                                value="/wEPDwUKMTk1MjMzNTE5OGRkaPO0ggf1stBv6W5w5HmHCU2hJi0=" />
+                        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"value="/wEPDwUKMTk1MjMzNTE5OGRkaPO0ggf1stBv6W5w5HmHCU2hJi0=" />
                 </div>
                 <div>
                         <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
@@ -43,51 +40,45 @@
                         <div class="container-fluid pad_remove header-menu">
                                 <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0">
                                         <a class="navbar-brand" href="{{route('index')}}">
-                                                <img src="{{asset('assets/images/logo.png')}}" style="max-width: 143px;"
-                                                        class="header-logo d-none d-md-block">
+                                                <img src="{{asset('assets/images/logo.png')}}" style="max-width: 143px;"class="header-logo d-none d-md-block">
                                                 <img src="{{asset('assets/images/logo.png')}}" class="d-md-none d-lg-none d-xl-none logos">
                                         </a>
                                         <div class='dropdown mobilebox'>
-                                                <a style='margin-left:10px;' href='#'>
+                                                <a style='margin-left:10px;' href="{{route('index')}}">
                                                         <img src="{{asset('assets/images/TR.png')}}" />
                                                 </a>
-                                                <a style='margin-left:10px;' href='#'><img src="{{asset('assets/images/EN.png')}}" />
-                                                </a>
+                                                <a style='margin-left:10px;' href=""><img src="{{asset('assets/images/EN.png')}}" /></a>
                                         </div>
-                                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                                data-target="#navbarCollapse" aria-controls="navbarCollapse"
-                                                aria-expanded="false" aria-label="Toggle navigation">
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarCollapse" aria-controls="navbarCollapse"aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon">
-                                                        <i class="fas fa-bars homepageactive"
-                                                                style="display:none;color:white; line-height: 1.5;">
-                                                        </i>
+                                                        <i class="fas fa-bars homepageactive"style="display:none;color:white; line-height: 1.5;"></i>
                                                 </span>
                                         </button>
                                         <div class="collapse navbar-collapse" id="navbarCollapse">
                                                 <ul class='navbar-nav navbar-black mainmenu mr-auto'>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('index')}}" target='_self'
-                                                                        title='HOME'>{{__('general.home')}}
+                                                                <a class='nav-link hovers' href="{{route('index')}}" target='_self'title='HOME'>
+                                                                        {{__('general.home')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('ourhotel')}}"
-                                                                        target='_self' title='OUR HOTEL'>{{__('general.our')}}
+                                                                <a class='nav-link hovers' href="{{route('ourhotel')}}"target='_self' title='OUR HOTEL'>
+                                                                        {{__('general.our-hotel')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('rooms')}}"
-                                                                        target='_self' title='ROOMS'>{{__('general.rooms')}}
+                                                                <a class='nav-link hovers' href="{{route('rooms')}}"target='_self' title='ROOMS'>
+                                                                        {{__('general.rooms')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('facilities')}}"
-                                                                        target='_self' title='FACILITIES'>{{__('general.facilities')}}
+                                                                <a class='nav-link hovers' href="{{route('facilities')}}"target='_self' title='FACILITIES'>
+                                                                        {{__('general.facilities')}}
                                                                 </a>
                                                         </li>
                                                         <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('contact')}}"
-                                                                        target='_self' title='CONTACT'>{{__('general.contact')}}
+                                                                <a class='nav-link hovers' href="{{route('contact')}}"target='_self' title='CONTACT'>
+                                                                        {{__('general.contact')}}
                                                                 </a>
                                                         </li>
                                                 </ul>
@@ -99,9 +90,7 @@
                                                                 +90 312 491 77 88
                                                         </a>
                                                 </div>
-                                                <a href="#" class="btn-private header-private-button" data-toggle="modal"
-                                                        data-target="#homepage_mod"
-                                                        style="border-radius: 10px;border-top-right-radius: 0px;border-bottom-left-radius: 0px;background:#fae100 !important; color:#252525;margin-right: 15px;">
+                                                <a href="#" class="btn-private header-private-button" data-toggle="modal"data-target="#homepage_mod"style="border-radius: 10px;border-top-right-radius: 0px;border-bottom-left-radius: 0px;background:#fae100 !important; color:#252525;margin-right: 15px;">
                                                         {{__('general.booknow')}}
                                                 </a>
                                         </div>
@@ -109,49 +98,12 @@
                         </div>
                 </header>
                 <section id="body">
-                        <div class="container-fluid">
-                        @yield('content')
-                        </div> 
+                        <div class="container-fluid">@yield('content')</div> 
                 </section>
                 <section id="footer">
-                        <div class="container-fluid">
-                                <div class="row padremove-bottom" style="background:#21304d; color:white;">
-                                        <div class="col-md-4">
-                                                &nbsp; TRYP BY WYNDHAM İSTANBUL TOPKAPI © 2018
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                                <ul class='horizontal_menu'>
-                                                        <li>
-                                                                <a href="{{route('terms')}}" target='_self'
-                                                                        title='Terms & Conditions'>
-                                                                        {{__('general.terms')}}
-                                                                </a>
-                                                        </li>
-                                                        <li>
-                                                                <a href="{{route('privacy')}}" target='_self'
-                                                                        title='Privacy Policy'>
-                                                                        {{__('general.privacyp')}}
-                                                                </a>
-                                                        </li>
-                                                        <li>
-                                                                <a href="{{route('disclamer')}}"target='_self' title='Disclamer'>
-                                                                {{__('general.disc')}}
-                                                                </a>
-                                                        </li>
-                                                </ul>
-                                        </div>
-                                        <div class="col-md-4"
-                                                style="text-align: right; color: #222222; overflow: hidden;">
-                                                <a href="http://mescomedia.com/" target="_blank">
-                                                        <img class="mescoimg" src="images/mescomedia1.png"
-                                                                onmouseover="hover(this);" onmouseout="unhover(this);">
-                                                </a>
-                                        </div>
-                                </div>
-                        </div>
+                        <footer class="row">@include('layouts.footer')</footer>
                 </section>
-                <div class="modal fade" id="homepage_mod" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="homepage_mod" tabindex="-1" role="dialog"aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                         <div class="modal-header">
@@ -164,16 +116,16 @@
                                         <div class="modal-body">
                                                 <div class="form booking-form formelements">
                                                         <div class="form-group">
-                                                                <label class="control-label" for="childs">{{__('general.date')}}</label>
+                                                                <label class="control-label" for="childs">{{__('general.booknow-date')}}</label>
                                                                 <input type="text" name="daterange" id="daterangex">
                                                         </div>
                                                         <div class="form-group "style="width: 50%;display: inline-block;padding-right:10px;float: left;">
-                                                                <label class="control-label" for="adults">{{__('general.adult')}}</label>
+                                                                <label class="control-label" for="adults">{{__('general.booknow-adult')}}</label>
                                                                 <input type="number" name="adults" id="adults" class="inputfocus">
                                                                 <input type="hidden" name="formbilgi" id="formbilgi"value="rezervasyon2">
                                                         </div>
                                                         <div class="form-group " style="width: 50%;display: inline-block;padding-left:10px;float: left;">
-                                                                <label class="control-label" for="childs">{{__('general.child')}}</label>
+                                                                <label class="control-label" for="childs">{{__('general.booknow-child')}}</label>
                                                                 <input type="number" name="childs" id="childs">
                                                         </div>
                                                         <div class="form-group"></div>
@@ -181,11 +133,10 @@
                                         </div>
                                         <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                                        Close
+                                                        {{__('general.booknow-close')}}
                                                 </button>
-                                                <button class="btn btn-primary" id="sendcoomment_button2"
-                                                        name="sendcoomment_button2" type="button" onclick="">
-                                                        Submit
+                                                <button class="btn btn-primary" id="sendcoomment_button2"name="sendcoomment_button2" type="button" onclick="">
+                                                        {{__('general.booknow-submit')}}
                                                 </button>
                                         </div>
                                 </div>

@@ -7,12 +7,13 @@
         <section id="home" >
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
-                                <div><a href='Photos/Agac/341/SPA.JPG' data-fancybox='group1'
-                                                data-caption=''>
-                                                <div class='bgkoy '
+                                <div>
+                                        <a href='Photos/Agac/341/SPA.JPG' data-fancybox='group1'data-caption=''>
+                                                <div class='bgput '
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');">
                                                 </div>
-                                        </a></div>
+                                        </a>
+                                </div>
                         </div>
                 </div>
         </section>
@@ -21,28 +22,19 @@
                         <div class="row">
                                 <div class="col-md-12 block_info-wrapper">
                                         <div class="block_info">
-                                                <h1 style="font-weight: 400;">MEDYA ODASI</h1>
-                                                <div class="clearfix"></div>
+                                                <h1 style="font-weight: 400;">{{__('general.media-room')}}</h1>
+                                                {{__('general.media-room-p')}}
                                         </div>
                                 </div>
-
                                 <div class='col-md-12 pad_remove' style='padding-right: 15px !important;'>
-                                        <p>
-                                                Evden uzakta olsa bile gençlik ateşi söndürülmeyecektir.<br/>
-                                                Bu konaklama biriminin bir kısmı playstation, dvd oynatıcı ve düz ekran ile donatılmıştır.
-                                        </p>
-                                        <p>
-                                                <ul>
-                                                        <li>
-                                                                Oda (25 metrekare)</li>
-                                                        <li>
-                                                                1 Çift Kişilik Yatak</li>
-                                                        <li>
-                                                                1 Çift Kişilik Yatak (180 * 200)</li>
-                                                        <li>
-                                                                Şehir manzaralı oda</li>
+                                        <h3>{{__('general.media-room-h3')}}</h3>
+                                        <ul>
+                                                <li> {{__('general.media-room-li-bed')}}</li>
+                                                <li> {{__('general.media-room-li-double-bed')}}</li>
+                                                <li> {{__('general.media-room-li-city-views')}}</li>
+
+                                        </ul>
                                                 
-                                        </p>
                                 </div>
                         </div>
                 </div>
@@ -66,11 +58,11 @@
                                                                 </div>
                                                                 <div class='detailsx'>
                                                                         <h2>SOSYAL ALAN(LOBİ)</h2>
-                                                                        <span></span><i class='btn'
-                                                                                href='#'>MORE</i>
+                                                                        <i class='btn'href='#'>MORE</i>
                                                                 </div>
                                                         </div>
-                                                </a></div>
+                                                </a>
+                                        </div>
                                 </div>
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
@@ -82,11 +74,11 @@
                                                                 </div>
                                                                 <div class='detailsx'>
                                                                         <h2>A LA CARTE RESTORANT</h2>
-                                                                        <span></span><i class='btn'
-                                                                                href='#'>MORE</i>
+                                                                        <i class='btn'href='#'>MORE</i>
                                                                 </div>
                                                         </div>
-                                                </a></div>
+                                                </a>
+                                        </div>
                                 </div>
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
@@ -98,11 +90,11 @@
                                                                 </div>
                                                                 <div class='detailsx'>
                                                                         <h2>TOPLANTI SALONU</h2>
-                                                                        <span></span><i class='btn'
-                                                                                href='#'>MORE</i>
+                                                                        <i class='btn'href='#'>MORE</i>
                                                                 </div>
                                                         </div>
-                                                </a></div>
+                                                </a>
+                                        </div>
                                 </div>
                                 
                         </div>

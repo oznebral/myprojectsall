@@ -40,7 +40,7 @@
                                                         </div>
                                                         <div class="form-group">
                                                                 <div>
-                                                                        <button class="btnblue btn-primary"id="sendcoomment_button2"name="sendcoomment_button2"type="button"onclick="">{{__('general.booknow-submit')}}</button>
+                                                                        <button class="btnblue btn-primary"id="sendcomment-button"name="sendcomment-button"type="button"onclick="">{{__('general.booknow-submit')}}</button>
                                                                 </div>
                                                         </div>
                                                 </div>

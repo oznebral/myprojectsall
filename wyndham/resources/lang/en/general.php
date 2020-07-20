@@ -13,133 +13,128 @@ return [
     |
     */
         //ODALARIN ADLARI
-        'standart-room'=>'STANDART ODA',
-        'media-room'=>'MEDYA ODASI',
-        'meeting-room'=>'TOPLANTI SALONU',
-        'ball-room'=>'BALO SALONU',
-        'deluxe-room'=>'LÜKS ODA',
+        'standart-room'=>'STANDART ROOM',
+        'media-room'=>'MEDİA ROOM',
+        'meeting-room'=>'MEETİNG ROOM',
+        'ball-room'=>'BALL ROOM',
+        'deluxe-room'=>'DELUXE ROOM',
         'fitness-room'=>'FİTNESS',
-        'la-carte-restaurant'=>'A LA CARTE RESTORANT',
-        'social-area-room'=>'SOSYAL ALAN(LOBİ)',
+        'la-carte-restaurant'=>'A LA CARTE RESTAURANT',
+        'social-area-room'=>'SOCİAL AREA(LOBBY)',
         //Sayfalarda ortak olanlar 
-        'other'=>'Diğer',
+        'other'=>'OTHER',
         'tryp-by-wyndham-istanbul'=>'TRYP BY WYNDHAM İSTANBUL TOPKAPI',
         'tryp-by-wyndham-istanbul2018'=>'TRYP BY WYNDHAM İSTANBUL TOPKAPI @2018',
         'more'=>'MORE',
 
 
         //Rezervasyon bölümü
-        'booknow'=>'REZERVASYON',
-        'booknow-date'=>'Tarih aralığını seçin...',
-        'booknow-adult'=>' Yetişkin sayısı',
-        'booknow-child'=>'Çocuk sayısı',
+        'booknow'=>'BOOKNOW',
+        'booknow-date'=>'Choose date range...',
+        'booknow-adult'=>'Number of adults',
+        'booknow-child'=>'Number of child',
         'booknow-close'=>'Close',
         'booknow-submit'=>'Submit',
         //Footer kısmı
-        'terms-conditions'=>'Şartlar ve koşullar/',
-        'privacy-policy'=>'Gizlilik politikası/',
-        'disclamer'=>'Feragat',
-        'contract-location'=>'Sözleşme yeri',
+        'terms-conditions'=>'Terms & Conditions',
+        'privacy-policy'=>'Privacy Policy',
+        'disclamer'=>'Disclamer',
+        'contract-location'=>'Contract location',
 
 
         //Header kısmı
-        'home' => 'Ana Sayfa',
-        'our-hotel' => 'OTELİMİZ',
-        'rooms'=>'Odalar',
-        'facilities'=>'Hizmetler',
-        'contact'=>'İletişim',
+        'home' => 'home',
+        'our-hotel' => 'Our Hotel',
+        'rooms'=>'Rooms',
+        'facilities'=>'Facilities',
+        'contact'=>'Contact',
 
         //İndex sayfası(Anasayfa)
-        'home-paragraph1'=>"Otelimiz & Wyndham Hotels & Resorts zincirinde bulunan TRYP by Wyndham 
-        İstanbul Topkapı'da tam hizmet veren spa ve diğer rahatlatıcı olanakların keyfini çıkarırken 
-        şehrin merkezinde konaklayın. Marmara Forum AVM'ye birkaç dakika uzaklıktaki sigara içilmeyen otelimiz,
-        Eski İstanbul bölgesindeki tarihi Sultanahmet'e ve hareketli Taksim Meydanı'ndaki mağazalar, restoranlar 
-        ve gece hayatına yakındır. İş amaçlı seyahat edenler, TÜYAP Kongre ve Fuar Merkezi'ne ve İstanbul Dünya Ticaret 
-        Merkezi'ne kolayca ulaşabilir. Bölgeye uçakla geliyorsanız yakındaki İstanbul Havalimanı'na (IST) uygun ücret 
-        karşılığında 7/24 servis hizmeti sunarız. .",
-        'home-pragraph2'=>'Tryp By Wyndham İstanbulTopkapı, iş seyahatlerinizdegüven, huzur ve kaliteyi sizlerle buluşturmayı amaçlamaktadır.',
-        'home-paragraph3'=>'Tryp By Wyndham İstanbul Topkapı’ nın 78 odası kendi tarzına ve modern olanaklara sahiptir. Standart , Deluxe
-        , Fitness , Media , Aile ve Suit odalarımız bu olanaklara sahip olan oda tiplerimizdir.',
+        'home-paragraph1'=>"
+        689/5000
+        TRYP by Wyndham in our Hotel & Wyndham Hotels & Resorts chain
+        Enjoying full-service spa and other relaxing facilities in Istanbul Topkapı
+        Stay in the center of the city. Our non-smoking hotel a few minutes away from Marmara Forum Shopping Mall,
+        The shops and restaurants of the old Sultanahmet area and the historical Sultanahmet and the lively Taksim Square
+        and close to night life. Business travelers to TÜYAP Congress and Fair Center and Istanbul World Trade
+        You can easily reach the center. If you come to the region by plane, suitable fare to nearby Istanbul Airport (IST)
+        We provide 24/7 service in return.",
+        'home-pragraph2'=>'Tryp By Wyndham İstanbul Topkapı aims to bring you confidence, peace and quality during your business trips.',
+        'home-paragraph3'=>'78 rooms of Tryp By Wyndham Istanbul Topkapi have their own style and modern facilities. Our Standard, 
+        Deluxe, Fitness, Media, Family and Suite rooms are our room types with these facilities.',
         'home-photo1-text'=>'Make your business and family',
         'home-photo2-text'=>'TRYP to İstanbul impeccable',
 
         //İletişim kısmı
-        'contact'=>'İletişim',
-        'adress'=>'Adres',
+        'contact'=>'Contact',
+        'adress'=>'Adress',
         'adress-location'=>'Seyitnizam, Mevlana Caddesi, Zeytinburnu/İstanbul',
         'office-phone1'=>'+90 312 491 77 88',
         'office-phone2'=>'+90 312 491 13 31',
         'email'=>' info@trypbywyndhamtopkapi.com',
 
-
-        //Header kısmı
-        'home' => 'Ana Sayfa',
-        'our-hotel' => 'OTELİMİZ',
-        'rooms'=>'Odalar',
-        'facilities'=>'Hizmetler',
-        'contact'=>'İletişim',
         //Our-Hotel kısmı
-        'our-hotel-p1'=>"Wyndham Hotels & Resorts zincirinde bulunan TRYP by Wyndham İstanbul Topkapı'da tam hizmet veren spa ve diğer rahatlatıcı
-        olanakların keyfini çıkarırken şehrin merkezinde konaklayın. Marmara Forum AVM'ye birkaç dakika uzaklıktaki sigara içilmeyen otelimiz, 
-        Eski İstanbul bölgesindeki tarihi Sultanahmet'e ve hareketli Taksim Meydanı'ndaki mağazalar, restoranlar ve gece hayatına yakındır. İş 
-        amaçlı seyahat edenler, TÜYAP Kongre ve Fuar Merkezi'ne ve İstanbul Dünya Ticaret Merkezi'ne kolayca ulaşabilir. Bölgeye uçakla geliyorsanız
-        yakındaki İstanbul Havalimanı'na (IST) uygun ücret karşılığında 7/24 servis hizmeti sunarız. .",
-        'our-hotel-p2'=>'Tryp By Wyndham İstanbul Topkapı, iş seyahatlerinizde güven, huzur ve kaliteyi sizlerle buluşturmayı amaçlamaktadır.',
-        'our-hotel-p3'=>'Tryp By Wyndham İstanbul Topkapı’ nın 78 odası kendi tarzına ve modern olanaklara sahiptir. Standart , 
-        Deluxe , Fitness , Media , Aile ve Suit odalarımız bu olanaklara sahip olan oda tiplerimizdir.',
+        'our-hotel-p1'=>"TRYP by Wyndham located in Wyndham Hotels & Resorts chain, full-service spa and other relaxing in Topkapi, Istanbul
+        Stay in the city center while enjoying the amenities. Our non-smoking hotel a few minutes away from Marmara Forum Shopping Mall,
+        It is close to historical Sultanahmet in the old Istanbul area and shops, restaurants and nightlife in the lively Taksim Square. Business
+        purpose travelers can easily reach TÜYAP Congress and Fair Center and Istanbul World Trade Center. If you come to the area by plane
+        We offer 24/7 shuttle service to nearby Istanbul Airport (IST) for a reasonable fee. ",
+        'our-hotel-p2'=>'Tryp By Wyndham Istanbul Topkapı aims to bring you confidence, peace and quality during your business trips.',
+        'our-hotel-p3'=>'78 rooms of Tryp By Wyndham Istanbul Topkapi have their own style and modern facilities. Standard ,
+        Our Deluxe, Fitness, Media, Family and Suite rooms are our room types with these facilities.',
 
 
         //Rooms kısmı ve çoğu bölümde olan yer -rooms-standartrooms-deloxerooms
-        'standart-room-detail'=>'Standart Oda Detayları ; Standart odalarımız 24 m2 olup misafirlerin tüm ihtiyaçlarını karşılayacak minimal tarzda dizayn edilmiştir.',
-        'room-types-properties'=>'Tüm oda tiplerimizde aşağıdaki özellikler standart olarak sunulmaktadır.',
-        'li-wifi'=>'Ücretsiz sabit 64 Mb hızında METRO İNTERNET',
-        'li-lcd'=>'LCD Televizyon',
+        'standart-room-detail'=>'Standard Room Details; Our standard rooms are 24 m2 and have been designed in a minimal style to meet all the needs of the guests.',
+        'room-types-properties'=>'The following features are offered as standard in all our room types.',
+        'li-wifi'=>'Free fixed 64MB METRO INTERNET',
+        'li-lcd'=>'LCD Tv',
         'li-minibar'=>'Minibar',
-        'li-phone'=>'Telefon',
-        'li-air-conditioning'=>'Merkezi klima sistemi',
-        'li-window'=>'Ses geçirmez ısıya dayanıklı pencere sistemleri',
-        'li-fire-system'=>'Dünya standartlarında yangın sistemleri',
-        'li-bathroom-supplies'=>'Ücretsiz banyo buklet malzemeleri',
-        'li-bathrobe'=>'Bornoz',
-        'li-hair-dryer'=>'Saç kurutma makinası',
-        'li-safe'=>'Laptop boyunda özel kasa',
-        'li-tea-coffe'=>'Ücretsiz Çay kahve set-upları',
-        'room-easy'=>'Kolaylıklar',
-        'li-wireless'=>'Kablosuz internet',
-        'li-in-room-safe'=>'Oda içi kasa',
-        'li-tv'=>'Televizyon',
-        'li-shower'=>'Duş',
+        'li-phone'=>'Phone',
+        'li-air-conditioning'=>'Central air conditioning system',
+        'li-window'=>'Soundproof heat resistant window systems',
+        'li-fire-system'=>'World-class fire systems',
+        'li-bathroom-supplies'=>'Free bathroom amenities',
+        'li-bathrobe'=>'Bathrobe',
+        'li-hair-dryer'=>'Hair dryer',
+        'li-safe'=>'Laptop safe',
+        'li-tea-coffe'=>'Free Tea & coffee set-ups',
+        'room-easy'=>'Easy',
+        'li-wireless'=>'Wireless',
+        'li-in-room-safe'=>'İn room safe',
+        'li-tv'=>'Tv',
+        'li-shower'=>'Shower',
 
         //Deluxe Room
-        "deluxeroom_p1"=>"Çalıştıktan veya kenti keşfettikten sonra, rahatlayın ve sessiz rahat odalarımızdan birinde 
-        günün yorgunluğunu unutun. Rahatlatıcı ve şık tasarımı ile bir sonraki TRYP'nizin sizi nereye götüreceği konusunda 
-        ilham alın İstanbul hakkında duvar resimleri hakkında bazı ipuçları verin Yeni otelimizdeki tüm TRYP odaları ikiz veya 
-        kral boyutundadır. Ücretsiz Wi-Fi, oda içi akış olanakları,oda içi kasa, mini bar, çay-kahve yapma olanaklarının
-        yanı sıra konforlu çalışma alanı da mevcuttur. LYGHTS OUT işaretini kapatın ve ertesi günün macerasına hazır olun.",
-        'deluxeroom_h3'=>'ODA (30 SQ METRE)',
-        'deluxeroom_li-double-single'=>'1 Çift Kişilik veya 2 Tek Kişilik Yatak',
-        'deluxeroom_li-one-single'=>'1 Çift Kişilik Yatak (180 * 200) x 2 Twın yatak (her yatak 100 * 200)',
-        'deluxeroom_li-city-views'=>'Şehir manzaralı oda',
+        "deluxeroom_p1"=>"After working or exploring the city, relax and in one of our quiet comfortable rooms
+        forget about the tiredness of the day. With its relaxing and stylish design, where your next TRYP will take you
+        Get inspired Give some clues about murals about Istanbul All TRYP rooms in our new hotel are twin or
+        is king size. Free Wi-Fi, in-room streaming facilities, in-room safe, minibar, tea and coffee making facilities
+        Besides, there is a comfortable working area. Turn off the LYGHTS OUT sign and get ready for the next day's adventure.",
+        'deluxeroom_h3'=>'ROOM(30 SQ METRE)',
+        'deluxeroom_li-double-single'=>'1 Double or 2 Single Beds(180*200)',
+        'deluxeroom_li-one-single'=>'1 Double Bed (180 * 200) x 2 Twins (each bed 100 * 200)',
+        'deluxeroom_li-city-views'=>'City view room',
         //Social Area Room
-        'socialarea_p1'=>'Şehrin enerjisini yakalamayı amaçlayan TRYP By Wyndham konseptinde sizin için özel hazırlanan kurabiyelerden tadabilir, 
-        soğuk veya sıcak içeceklerinizi dostlarınızla sohbet ederken içebilir veya sakin vakit geçirmek için şömine eşliğinde kitap okuyabilirsiniz.',
-        'socialarea_h3'=>'Aile Odaları',
-        'socialarea_p2'=>'Özellikle aile ihtiyaçlarına uygun odalarBenzersiz modüler oda konseptiyle Tryp By Wyndham Hotel, 5 kişiye 
-        kadar aileleri ağırlayabilir',
-        'socialarea_h3_li'=>'Odalar (45 metrekare)',
-        'socialarea_li_one_bed'=>'İlk Oda 1 Çift Kişilik Yatak (180 * 200)',
-        'socialarea_li_one_bunk'=>'1 Ranza (2 Tek Kişilik Yatak)',
-        'socialarea_li_one_sofabed'=>'(100 * 200) 1 Çekyat Max 5 Kişi',
-        'socialarea_roomwithvista'=>'Şehir manzaralı oda',
+        'socialarea_p1'=>'You can taste cookies specially prepared for you in the concept of TRYP By Wyndham, which aims to capture the energy of the city,
+        you can drink your cold or hot drinks while chatting with your friends or read a book by the fireplace for a quiet time.',
+        'socialarea_h3'=>'City rooms',
+        'socialarea_p2'=>'Rooms suitable especially for family needs Tryp By Wyndham Hotel, with its unique modular room concept, can accommodate up to 5
+        can accommodate up to families',
+        'socialarea_h3_li'=>'Rooms(45 SQ METRE)',
+        'socialarea_li_one_bed'=>'1 Double or 2 Single Beds(180 * 200)',
+        'socialarea_li_one_bunk'=>'1 Bunk Bed (2 Single Beds)',
+        'socialarea_li_one_sofabed'=>'(100 * 200) 1 Sofa Bed Max 5 People',
+        'socialarea_roomwithvista'=>'City view room',
         //A la carte restaurant
-        'a-la-larte-restaurant-paragraf'=>'Restaurant “A La Carte”, aşçılarımızın sofistike yemeklerinin tadını çıkarabilen 
-        sofistike bir tada sahip konuklar içindir. Restoran "alakart" - şeflerimizin yardımıyla 
-        onlara en iyi yemekleri getirebileceğimiz hassas ihtiyaçları olan misafirler için tasarlanmıştır.
-        A la carte restoran şeflerimizin üstünlüğünü göstermek için tasarlanmıştır.
-        Hem uluslararası hem de çağdaş mutfak var. Modern uluslararası mutfaktan yemekler sunuyoruz. 
-        Restoranımızın rahat ortamında aileniz ve arkadaşlarınızla akşam yemeği yiyebilirsiniz. "Alakart" 
-        restoranda rahat bir ortamda aileniz ve arkadaşlarınızla bir akşam yemeği sunuyoruz. Menü ilk bakışta 
-        çeşitli atıştırmalık ve tatlılara ayrılmıştır.',
+        'a-la-larte-restaurant-paragraf'=>'Restaurant “A La Carte”, where you can enjoy the sophisticated dishes of our cooks
+        For guests with a sophisticated taste. Restaurant "à la carte" - with the help of our chefs
+        It is designed for guests with sensitive needs, where we can bring them the best dishes.
+        A la carte restaurant is designed to show the superiority of our chefs.
+        There are both international and contemporary cuisine. We offer dishes from modern international cuisine.
+        You can have dinner with your family and friends in the cozy atmosphere of our restaurant. "A la carte"
+        We offer a dinner with your family and friends in a relaxed atmosphere in the restaurant. Menu at a glance
+        It is divided into various snacks and desserts.',
 
         //Meeting room
         'ece-meetings-hall-h3'=>'ECE TOPLANTI SALONU',

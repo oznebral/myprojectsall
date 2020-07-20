@@ -5,12 +5,12 @@
                         <ul class='horizontal_menu'>
                                 <li>
                                         <a href="{{route('terms')}}" target='_self'title='Terms & Conditions'>
-                                                {{__('general.terms-conditions')}}
+                                                {{__('general.terms-conditions')}}/
                                         </a>
                                 </li>
                                 <li>
                                         <a href="{{route('privacy')}}" target='_self'title='Privacy Policy'>
-                                                {{__('general.privacy-policy')}}
+                                                {{__('general.privacy-policy')}}/
                                         </a> 
                                 </li>
                                 <li>
@@ -19,11 +19,6 @@
                                         </a>
                                 </li>
                         </ul>
-                </div>
-                <div class="col-md-4"style="text-align: right; color: #222222; overflow: hidden;">
-                        <a href="http://mescomedia.com/" target="_blank">
-                                <img class="mescoimg" src="images/mescomedia1.png"onmouseover="hover(this);" onmouseout="unhover(this);">
-                        </a>
                 </div>
         </div>
 </div>

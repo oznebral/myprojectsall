@@ -7,19 +7,19 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
                                 <div>
-                                        <a href='Photos/Agac/358/DELUXE1.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/358/DELUXE3.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}');">
                                                 </div></a>
                                 </div>
-                                <div><a href='Photos/Agac/358/ZBATHROOM.JPG' data-fancybox='group1'data-caption=''>
+                                <div><a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437775.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437775.jpg')}}');">
                                                 </div></a>

@@ -7,72 +7,58 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
                                 <div>
-                                        <a href='Photos/Agac/356/DELUXEROOM__5_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/DELUXEROOM__5_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/DELUXEROOM__5_.JPG' data-fancybox='group1'data-caption=''>
-                                                <div class='bgput'
-                                                        style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Foyer - 1437714.jpg')}}');">
-                                                </div>
-                                        </a>
-                                        </div>
-                                <div>
-                                        <a href='Photos/Agac/356/DELUXEROOM__5_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/STANDARTROOM_1_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Guestroom Bathroom - 1437680.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Guestroom Bathroom - 1437680.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/SUITROOM__1_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Fitness Room - 1437749.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Fitness Room - 1437749.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/SUITROOM__2_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437745.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437745.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/SUITROOM__5_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Accessible Bathroom - 1437683.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Accessible Bathroom - 1437683.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/356/SUIT_PANORAMA1.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Fitness Room - 1437750.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Fitness Room - 1437750.jpg')}}');">
-                                                </div>
-                                        </a>
-                                </div>
-                                <div>
-                                        <a href='Photos/Agac/356/_5003637.JPG' data-fancybox='group1'data-caption=''>
-                                                <div class='bgput'
-                                                        style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Business Center - 1437699.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>

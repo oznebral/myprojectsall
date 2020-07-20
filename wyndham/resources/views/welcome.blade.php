@@ -1,6 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Page Title')
-
+@section('title', 'Your page title')
 @section('content')
     <p>This is my body content.</p>
 @stop

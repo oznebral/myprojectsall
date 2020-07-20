@@ -6,12 +6,8 @@
         <section id="home">
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
-                                <div>
-                                        <a href='Photos/Agac/341/SPA.JPG' data-fancybox='group1'data-caption=''>
-                                                <div class='bgput'
-                                                        style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');">
-                                                </div>
-                                        </a>
+                                <div class='bgput'
+                                        style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');">
                                 </div>
                         </div>
                 </div>

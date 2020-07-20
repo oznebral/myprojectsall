@@ -55,5 +55,7 @@ class GeneralController extends Controller
     public function disclamer(){
         return view('disclamer');
     }
+ 
+  
 
 }

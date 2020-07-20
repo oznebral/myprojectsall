@@ -7,56 +7,56 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
                                 <div>
-                                        <a href='Photos/Agac/344/CAFE__1_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/CAFE__2_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Foyer - 1437714.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Foyer - 1437714.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/LOBBY__1_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Hallway - 1437709.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Hallway - 1437709.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/LOBBY__2_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/LOBI__1_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby Bar - 1437724.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby Bar - 1437724.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/LOBI__3_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Exterior - 1437702.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Exterior - 1437702.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/SOCIAL_AREA.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Hallway - 1437709.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Hallway - 1437709.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/344/SOCIAL_AREA_2.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');">
                                                 </div>

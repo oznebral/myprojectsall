@@ -1,15 +1,3 @@
-/*
-====================================================
-
-* 	[Master Stylesheet]
-	
-	Theme Name :  TRYP IZMIT BY WYNDHAM 
-	Version    :  v1
-	Author     :  Mescomedia Internet
-	Author URI :  www.mescomedia.com
-
-====================================================
-*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=latin-ext');
 body{
 	background-color: #fff;
@@ -386,7 +374,6 @@ a:active,a:hover,a:visited{
 	background: none;
 }
 .block_aside-wrapper::after {
-	background: url(../images/leafe.svg) no-repeat;
 	content: "";
 	display: block;
 	width: 135px;

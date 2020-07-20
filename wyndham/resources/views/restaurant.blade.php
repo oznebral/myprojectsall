@@ -7,63 +7,63 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT1.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}"data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT2.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT_BREAKFAST__1_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby Bar - 1437724.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby Bar - 1437724.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT_BREAKFAST__2_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT_BREAKFAST__3_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT_BREAKFAST__4_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437693.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT__1_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/343/RESTAURANT__2_.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437692.jpg')}}');">
                                                 </div>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html id="ctl00_martigroup" lang="en">
+<html id="ctl00_martigroup" lang="{{app()->getLocale()}}">
 <head> 
-        <title>
-                {{__('general.tryp-by-wyndham-istanbul')}}
-        </title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}"/>
+<title>
+        App Name - @yield('title')
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}"/>
 </head>
 <body>
         <div class="loading"
@@ -28,14 +28,9 @@
                                 <div class="wInnerBall"></div>
                         </div>
                 </div>
-        </div>
-        <form name="aspnetForm" method="post" action="/Default.aspx" id="aspnetForm">
-                <div>
-                        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"value="/wEPDwUKMTk1MjMzNTE5OGRkaPO0ggf1stBv6W5w5HmHCU2hJi0=" />
-                </div>
-                <div>
-                        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
-                </div>
+        </div>F
+        
+        <form name="aspnetForm" method="post"id="aspnetForm">
                 <header class="fixed-top">
                         <div class="container-fluid pad_remove header-menu">
                                 <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0">
@@ -44,10 +39,10 @@
                                                 <img src="{{asset('assets/images/logo.png')}}" class="d-md-none d-lg-none d-xl-none logos">
                                         </a>
                                         <div class='dropdown mobilebox'>
-                                                <a style='margin-left:10px;' href="{{route('index')}}">
+                                                <a style='margin-left:10px;' href="locale/tr">
                                                         <img src="{{asset('assets/images/TR.png')}}" />
                                                 </a>
-                                                <a style='margin-left:10px;' href=""><img src="{{asset('assets/images/EN.png')}}" /></a>
+                                                <a style='margin-left:10px;' href="locale/en"><img src="{{asset('assets/images/EN.png')}}" /></a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarCollapse" aria-controls="navbarCollapse"aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon">
@@ -55,33 +50,7 @@
                                                 </span>
                                         </button>
                                         <div class="collapse navbar-collapse" id="navbarCollapse">
-                                                <ul class='navbar-nav navbar-black mainmenu mr-auto'>
-                                                        <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('index')}}" target='_self'title='HOME'>
-                                                                        {{__('general.home')}}
-                                                                </a>
-                                                        </li>
-                                                        <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('ourhotel')}}"target='_self' title='OUR HOTEL'>
-                                                                        {{__('general.our-hotel')}}
-                                                                </a>
-                                                        </li>
-                                                        <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('rooms')}}"target='_self' title='ROOMS'>
-                                                                        {{__('general.rooms')}}
-                                                                </a>
-                                                        </li>
-                                                        <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('facilities')}}"target='_self' title='FACILITIES'>
-                                                                        {{__('general.facilities')}}
-                                                                </a>
-                                                        </li>
-                                                        <li class='nav-item'>
-                                                                <a class='nav-link hovers' href="{{route('contact')}}"target='_self' title='CONTACT'>
-                                                                        {{__('general.contact')}}
-                                                                </a>
-                                                        </li>
-                                                </ul>
+                                             @include('includes.header')
                                         </div>
                                         <div class="comebackx" style="display: contents;">
                                                 <div class='col-md-3 text-center text-md-right' style='color: #fff;'>
@@ -135,7 +104,7 @@
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">
                                                         {{__('general.booknow-close')}}
                                                 </button>
-                                                <button class="btn btn-primary" id="sendcoomment_button2"name="sendcoomment_button2" type="button" onclick="">
+                                                <button class="btn btn-primary" id="btn-make-reservation"name="btn-make-reservation" type="button" onclick="">
                                                         {{__('general.booknow-submit')}}
                                                 </button>
                                         </div>
@@ -190,24 +159,6 @@
                         return (d < 10) ? '0' + d.toString() : d.toString();
                 }
         </script>       
-        <script>
-                function AjxCall(eleman, parametre) { $.ajax({ type: 'GET', url: 'ajx.aspx', cache: false, data: parametre, success: function (sonuc) { $('#' + eleman).html(sonuc); } }); }
-                $('#sendcomment-button').click(function (e) {
-                        var params1 = $('.form_elements').find('select, textarea, input').serialize();
-                        $.ajax({
-                                type: 'GET',
-                                url: 'Ajx.aspx',
-                                cache: false,
-                                data: params1,
-                                success: function (sonuc) {
-                                        alert(sonuc);
-                                        if (sonuc == "Gönderildi!") {
-                                                $('#homepage_mod').modal('hide');
-                                        }
-                                }
-                        });
-                });
-        </script>
         <script>
                 $('body').css('background-color', '#21304d');
                 $('.maincolor').removeClass('bg-light navbar-light');

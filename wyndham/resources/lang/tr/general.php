@@ -27,7 +27,7 @@ return [
         'other'=>'Diğer',
         'tryp-by-wyndham-istanbul'=>'TRYP BY WYNDHAM İSTANBUL TOPKAPI',
         'tryp-by-wyndham-istanbul2018'=>'TRYP BY WYNDHAM İSTANBUL TOPKAPI @2018',
-        'more'=>'MORE',
+        'more'=>'DAHA FAZLA',
 
         //Rezervasyon bölümü
         'booknow'=>'REZERVASYON',

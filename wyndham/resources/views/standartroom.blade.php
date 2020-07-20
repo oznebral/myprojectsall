@@ -7,21 +7,21 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
                                 <div>
-                                        <a href='Photos/Agac/337/STANDARTROOM_1_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/337/STANDARTROOM_4_.JPG'data-fancybox='group1' data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Guestroom Bathroom - 1437680.jpg')}}"data-fancybox='group1' data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Guestroom Bathroom - 1437680.jpg')}}');">
                                                 </div>
                                         </a>
                                 </div>
                                 <div>
-                                        <a href='Photos/Agac/337/ZBATHROOM.JPG' data-fancybox='group1'data-caption=''>
+                                        <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
                                                         style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');">
                                                 </div>
@@ -101,7 +101,7 @@
                                                                 </div>
                                                                 <div class="form-group">
                                                                         <div>
-                                                                                <button class="btnblue btn-primary"id="sendcoomment_button2"name="sendcoomment_button2"type="button"onclick="">{{__('general.booknow-submit')}}</button>
+                                                                                <button class="btnblue btn-primary"id="sendcomment-button"name="sendcomment-button"type="button"onclick="">{{__('general.booknow-submit')}}</button>
                                                                         </div>
                                                                 </div>
                                                         </div>

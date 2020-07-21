@@ -15,17 +15,17 @@
                         <div class="row">
                                 <div class="col-md-12 block_info-wrapper">
                                         <div class="block_info">
-                                                <h1 style="font-weight: 350;">{{__('general.meeting-room')}}</h1>
+                                                <h1 style="font-weight: 350; text-align:center">{{__('general.meeting-room')}}</h1>
                                         </div>
                                 </div>
                                 <div class='col-md-12 pad_remove' style='padding-right: 15px !important;'>
                                         <p>
                                                 <h3>{{__('general.ece-meetings-hall-h3')}}</h3>
-                                                {{__('general.ece-meetings-hall-p')}}<br/>
+                                                {{__('general.ece-meetings-hall-p')}}<br/><br/>
                                                 <h3>{{__('general.ufuk-meetings-hall-h3')}}</h3>
-                                                {{__('general.ufuk-meetings-hall-p')}}<br/>
+                                                {{__('general.ufuk-meetings-hall-p')}}<br/><br/>
                                                 <h3>{{__('general.mirac-meetings-hall-h3')}}</h3>
-                                                {{__('general.mirac-meetings-hall-p')}}<br/>
+                                                {{__('general.mirac-meetings-hall-p')}}<br/><br/>
                                         </p>
                                 </div>
                         </div>
@@ -43,7 +43,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');">
-                                                <a class='' href="{{route('lobby')}}">
+                                                <a class='' href="{{route('lobby',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.social-area-room')}}</p>
@@ -59,7 +59,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}');">
-                                                <a class='' href="{{route('restaurant')}}">
+                                                <a class='' href="{{route('restaurant',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.la-carte-restaurant')}}</p>
@@ -75,7 +75,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Fitness Room - 1437749.jpg')}}');">
-                                                <a class='' href="{{route('fitness')}}">
+                                                <a class='' href="{{route('fitness',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.fitness-room')}}</p>

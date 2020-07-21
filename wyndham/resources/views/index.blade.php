@@ -2,7 +2,7 @@
 @section('title', 'Page Title')
 
 @section('content')
-<section id="home">
+<section id="home" >
         <div class="container-fluid">
                 <div id="carouselhome" class="carousel slide" data-ride="carousel">
                         <div class='carousel-inner homeslider carousel-fade'>
@@ -106,7 +106,7 @@
                 <div class='row padremove-bottom rooms_class'>
                         <div class='col-md-6'>
                                 <div class='col-md-12 pad_remove galeris' style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 Q Suite - 1437783.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('standartroom')}}">
+                                        <a class='' href="{{route('standartroom',App::getLocale())}}">
                                                 <div class='near text-center lineheightoda'>
                                                         <div class='title-block'><p>{{__('general.standart-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -119,7 +119,7 @@
                         </div>
                         <div class='col-md-6'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('deluxeroom')}}">
+                                        <a class='' href="{{route('deluxeroom',App::getLocale())}}">
                                                 <div class='near text-center lineheightoda'>
                                                         <div class='title-block'><p>{{__('general.deluxe-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -132,7 +132,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('lobby')}}">
+                                        <a class='' href="{{route('lobby',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'><p>{{__('general.social-area-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -145,7 +145,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('restaurant')}}">
+                                        <a class='' href="{{route('restaurant',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'><p>{{__('general.la-carte-restaurant')}}</p></div>
                                                         <div class='detailsx'>
@@ -158,7 +158,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Long Boardroom Table - 1437736.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('meetingroom')}}">
+                                        <a class='' href="{{route('meetingroom',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'>
                                                                 <p>{{__('general.meeting-room')}}</p>
@@ -173,7 +173,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('mediaroom')}}">
+                                        <a class='' href="{{route('mediaroom',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'><p>{{__('general.media-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -186,7 +186,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris' style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('ballroom')}}">
+                                        <a class='' href="{{route('ballroom',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'><p>{{__('general.ball-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -199,7 +199,7 @@
                         </div>
                         <div class='col-md-6 alt'>
                                 <div class='col-md-12 pad_remove galeris'style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Fitness Center - 1437716.jpg')}}');height: 345.5px;">
-                                        <a class='' href="{{route('fitness')}}">
+                                        <a class='' href="{{route('fitness',App::getLocale())}}">
                                                 <div class='near text-center lineheight'>
                                                         <div class='title-block'><p>{{__('general.fitness-room')}}</p></div>
                                                         <div class='detailsx'>
@@ -235,8 +235,7 @@
                                                         width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                         </div>
                                 </div>
-                        </div>
-
+                        </div>3
                 </div>
         </div>
 </section>

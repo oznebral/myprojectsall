@@ -105,7 +105,7 @@
                                 <div class='col-md-4'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 Q Suite - 1437783.jpg')}}');height: 345.5px;">
-                                                <a class='' href="{{route('standartroom')}}">
+                                                <a class='' href="{{route('standartroom',App::getLocale())}}">
                                                         <div class='near text-center lineheightoda'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.standart-room')}}</p></div>
@@ -119,7 +119,7 @@
                                 <div class='col-md-4'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 2 T Accessible - 1437758.jpg')}}');height: 345.5px;">
-                                                <a class='' href="{{route('deluxeroom')}}">
+                                                <a class='' href="{{route('deluxeroom',App::getLocale())}}">
                                                         <div class='near text-center lineheightoda'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.deluxe-room')}}</p></div>
@@ -134,7 +134,7 @@
                                 <div class='col-md-4'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image: url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Media Room - 1437742.jpg')}}');height: 345.5px;">
-                                                <a class='' href="{{route('mediaroom')}}">
+                                                <a class='' href="{{route('mediaroom',App::getLocale())}}">
                                                         <div class='near text-center lineheightoda'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.media-room')}}</p></div>

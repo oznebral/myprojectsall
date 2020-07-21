@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html id="ctl00_martigroup" lang="{{app()->getLocale()}}">
+<html id="ctl00_martigroup" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head> 
-<title>
-        App Name - @yield('title')
-</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}"/>
+        <title>{{isset($title) && !empty($title) ? $title.' | TRYP BY WYNDHAM' : 'TRYP BY WYNDHAM İSTANBUL TOPKAPI'}}</title>
+        <meta name="description" content="{{isset($description) && !empty($description) ? $description:''}}">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/tryp_by_wyndham_topkapi.png')}}"/>
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/fontawesome-free-5.13.1-web/css/all.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick-theme.css')}}" />
+        <link rel="stylesheet" type="text/css"href="{{asset('assets/css/jquery.fancybox.min.css')}}">
+        <link rel="stylesheet" type="text/css"href="{{asset('assets/css/daterangepicker.css')}}" />
 </head>
 <body>
         <div class="loading"
@@ -28,21 +34,20 @@
                                 <div class="wInnerBall"></div>
                         </div>
                 </div>
-        </div>F
-        
+        </div>
         <form name="aspnetForm" method="post"id="aspnetForm">
                 <header class="fixed-top">
                         <div class="container-fluid pad_remove header-menu">
                                 <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0">
-                                        <a class="navbar-brand" href="{{route('index')}}">
-                                                <img src="{{asset('assets/images/logo.png')}}" style="max-width: 143px;"class="header-logo d-none d-md-block">
-                                                <img src="{{asset('assets/images/logo.png')}}" class="d-md-none d-lg-none d-xl-none logos">
+                                        <a class="navbar-brand" href="{{route('index', App::getLocale())}}">
+                                                <img src="{{asset('assets/images/tryp_by_wyndham_topkapi.png')}}" style="max-width: 143px;"class="header-logo d-none d-md-block">
+                                                <img src="{{asset('assets/images/tryp_by_wyndham_topkapi.png')}}" class="d-md-none d-lg-none d-xl-none logos">
                                         </a>
                                         <div class='dropdown mobilebox'>
-                                                <a style='margin-left:10px;' href="locale/tr">
+                                                <a style='margin-left:10px;' href="{{route(Route::currentRouteName(), 'tr')}}">
                                                         <img src="{{asset('assets/images/TR.png')}}" />
                                                 </a>
-                                                <a style='margin-left:10px;' href="locale/en"><img src="{{asset('assets/images/EN.png')}}" /></a>
+                                                <a style='margin-left:10px;' href="{{route(Route::currentRouteName(), 'en')}}"><img src="{{asset('assets/images/EN.png')}}" /></a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarCollapse" aria-controls="navbarCollapse"aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon">
@@ -97,7 +102,6 @@
                                                                 <label class="control-label" for="childs">{{__('general.booknow-child')}}</label>
                                                                 <input type="number" name="childs" id="childs">
                                                         </div>
-                                                        <div class="form-group"></div>
                                                 </div>
                                         </div>
                                         <div class="modal-footer">
@@ -112,16 +116,6 @@
                         </div>
                 </div>
         </form>
-
-
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/fontawesome-free-5.13.1-web/css/all.min.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick.css')}}" />
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick-theme.css')}}" />
-        <link rel="stylesheet" type="text/css"href="{{asset('assets/css/jquery.fancybox.min.css')}}">
-        <link rel="stylesheet" type="text/css"href="{{asset('assets/css/daterangepicker.css')}}" />
 
         <script type="text/javascript" src="{{asset('assets/javascript/jquery-3.3.1.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('assets/javascript/moment.min.js')}}"></script>
@@ -169,5 +163,4 @@
                 $('.homepageactive').css('display', 'block');
         </script>
 </body>
-
 </html>

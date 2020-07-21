@@ -13,7 +13,6 @@
                                 <img class='prevbuttonlar b' src="{{asset('assets/images/next.png')}}"></a>
                 </div>
         </section>
-
         <section id="our-hotel">
                 <div class="container-fluid" style="/*margin-top:10px;*/">
                         <div class="row hotel-about-size"

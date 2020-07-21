@@ -879,4 +879,18 @@ input:valid ~ .control-label{
             width: 500px;
             height: 300px;;
     }
+    .block_aside-wrapper-room{
+	content: "";
+	display: block;
+	width: 150px;
+	height: 600px;
+	position: absolute;
+	top: 11%;
+	right: 0;
+	opacity: 0.1;
+	background-size: 400px;
+}
+.colorbooknow{
+        background-color:#fae100;
+}
     

@@ -1,26 +1,26 @@
 <ul class='navbar-nav navbar-black mainmenu mr-auto'>
         <li class='nav-item'>
-                <a class='nav-link hovers' href="{{route('index')}}" target='_self'title='HOME'>
+                <a class='nav-link hovers' href="{{route('home', App::getLocale())}}" target='_self'title='HOME'>
                         {{__('general.home')}}
                 </a>
         </li>
         <li class='nav-item'>
-                <a class='nav-link hovers' href="{{route('ourhotel')}}"target='_self' title='OUR HOTEL'>
+                <a class='nav-link hovers' href="{{route('ourhotel', App::getLocale())}}"target='_self' title='OUR HOTEL'>
                         {{__('general.our-hotel')}}
                 </a>
         </li>
         <li class='nav-item'>
-                <a class='nav-link hovers' href="{{route('rooms')}}"target='_self' title='ROOMS'>
+                <a class='nav-link hovers' href="{{route('rooms', App::getLocale())}}"target='_self' title='ROOMS'>
                         {{__('general.rooms')}}
                 </a>
         </li>
         <li class='nav-item'>
-                <a class='nav-link hovers' href="{{route('facilities')}}"target='_self' title='FACILITIES'>
+                <a class='nav-link hovers' href="{{route('facilities', App::getLocale())}}"target='_self' title='FACILITIES'>
                         {{__('general.facilities')}}
                 </a>
         </li>
         <li class='nav-item'>
-                <a class='nav-link hovers' href="{{route('contact')}}"target='_self' title='CONTACT'>
+                <a class='nav-link hovers' href="{{route('contact', App::getLocale())}}"target='_self' title='CONTACT'>
                         {{__('general.contact')}}
                 </a>
         </li>

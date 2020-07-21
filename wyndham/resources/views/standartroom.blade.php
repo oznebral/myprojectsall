@@ -40,7 +40,7 @@
                                 </div>
                                 <div class='col-md-8 pad_remove' style='padding-right: 15px !important;'>
                                         <u><strong>{{__('general.standart-room-detail')}}</strong></u>
-                                        <ul>
+                                        <ul> <br/>
                                                 <li>{{__('general.li-wifi')}}</li>
                                                 <li>{{__('general.li-lcd')}}</li>
                                                 <li>{{__('general.li-minibar')}}</li>
@@ -82,31 +82,35 @@
                                         </div>
                                 </div>
                                 <div id="ctl00_ContentPlaceHolder1_rezekran" class="col-md-4 pad_remove">
-                                        <div class="block_aside-wrapper">
-                                                <div class="block_aside">
-                                                        <h3>{{__('general.booknow')}}</h3>
-                                                        <div class="form booking-form formelements">
-                                                                <div class="form-group">
-                                                                        <label class="control-label" for="childs">{{__('general.booknow-date')}}</label>
-                                                                        <input type="text" name="daterange" id="daterangex">
-                                                                </div>
-                                                                <div class="form-group "style="width: 50%;display: inline-block;padding-right:10px;float: left;">
-                                                                        <label class="control-label" for="adults">{{__('general.booknow-adult')}}</label>
-                                                                        <input type="number" name="adults" id="adults" class="inputfocus">
-                                                                        <input type="hidden" name="formbilgi" id="formbilgi"value="rezervasyon2">
-                                                                </div>
-                                                                <div class="form-group " style="width: 50%;display: inline-block;padding-left:10px;float: left;">
-                                                                        <label class="control-label" for="childs">{{__('general.booknow-child')}}</label>
-                                                                        <input type="number" name="childs" id="childs">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                        <div>
-                                                                                <button class="btnblue btn-primary"id="sendcomment-button"name="sendcomment-button"type="button"onclick="">{{__('general.booknow-submit')}}</button>
+                                        <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                        <div class="modal-header colorbooknow">
+                                                                <h5 id="homepage_mod"> {{__('general.booknow')}}</h5>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                                <div class="form booking-form formelements">
+                                                                        <div class="form-group">
+                                                                                <label class="control-label" for="childs">{{__('general.booknow-date')}}</label>
+                                                                                <input type="text" name="daterange" id="daterangex">
+                                                                        </div>
+                                                                        <div class="form-group "style="width: 50%;display: inline-block;padding-right:10px;float: left;">
+                                                                                <label class="control-label" for="adults">{{__('general.booknow-adult')}}</label>
+                                                                                <input type="number" name="adults" id="adults" class="inputfocus">
+                                                                                <input type="hidden" name="formbilgi" id="formbilgi"value="rezervasyon2">
+                                                                        </div>
+                                                                        <div class="form-group " style="width: 50%;display: inline-block;padding-left:10px;float: left;">
+                                                                                <label class="control-label" for="childs">{{__('general.booknow-child')}}</label>
+                                                                                <input type="number" name="childs" id="childs">
                                                                         </div>
                                                                 </div>
                                                         </div>
+                                                        <div class="modal-footer">
+                                                                <button class="btn btn-primary" id="btn-make-reservation"name="btn-make-reservation" type="button" onclick="">
+                                                                        {{__('general.booknow-submit')}}
+                                                                </button>
+                                                        </div>
                                                 </div>
-                                        </div>
+                                        </div>        
                                 </div>
                         </div>
                 </div>
@@ -123,7 +127,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL Deluxe Terrace - 1437771.jpg')}}');">
-                                                <a class='' href="{{route('deluxeroom')}}">
+                                                <a class='' href="{{route('deluxeroom',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.deluxe-room')}}</p>
@@ -138,7 +142,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Long Boardroom Table - 1437736.jpg')}}');">
-                                                <a class='' href="{{route('meetingroom')}}">
+                                                <a class='' href="{{route('meetingroom',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>{{__('general.meeting-room')}}</p>

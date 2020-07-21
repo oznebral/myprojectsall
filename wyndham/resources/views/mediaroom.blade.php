@@ -18,8 +18,8 @@
                         <div class="row">
                                 <div class="col-md-12 block_info-wrapper">
                                         <div class="block_info">
-                                                <h1 style="font-weight: 400;">{{__('general.media-room')}}</h1>
-                                                {{__('general.media-room-p')}}
+                                                <h1 style="font-weight: 400;text-align:center">{{__('general.media-room')}}</h1>
+                                                {{__('general.media-room-p')}}<br/>
                                         </div>
                                 </div>
                                 <div class='col-md-12 pad_remove' style='padding-right: 15px !important;'>
@@ -47,7 +47,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}');">
-                                                <a class='' href="{{route('lobby')}}">
+                                                <a class='' href="{{route('lobby',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>SOSYAL ALAN(LOBİ))</p>
@@ -63,7 +63,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437690.jpg')}}');">
-                                                <a class='' href="{{route('restaurant')}}">
+                                                <a class='' href="{{route('restaurant',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>A LA CARTE RESTORANT</p>
@@ -79,7 +79,7 @@
                                 <div class='col-md-4 alt2'>
                                         <div class='col-md-12 pad_remove galeris'
                                                 style="background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Long Boardroom Table - 1437736.jpg')}}');">
-                                                <a class='' href="{{route('meetingroom')}}">
+                                                <a class='' href="{{route('meetingroom',App::getLocale())}}">
                                                         <div class='near text-center lineheight'>
                                                                 <div class='title-block'>
                                                                         <p>TOPLANTI SALONU</p>

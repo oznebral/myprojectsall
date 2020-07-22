@@ -85,7 +85,7 @@ Route::prefix('{lang?}')->middleware('language')->group(function($lang){
         Route::get('/ball-room',function () {
                 $title = trans('general.titles.title-meeting-room');
                 $description = trans('general.descriptions.12');
-                return view('meetingroom')->with(['title' => $title,'description' => $description]);
+                return view('ballroom')->with(['title' => $title,'description' => $description]);
         })->name('ballroom');
 
         Route::get('/fitness-room',function () {

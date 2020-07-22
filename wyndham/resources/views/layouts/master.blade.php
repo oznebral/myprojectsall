@@ -37,8 +37,8 @@
         </div>
         <form name="aspnetForm" method="post"id="aspnetForm">
                 <header class="fixed-top">
-                        <div class="container-fluid pad_remove header-menu">
-                                <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0">
+                        <div class="container-fluid pad_remove header-menu ">
+                                <nav class="navbar navbar-expand-md navbar-light bg-light maincolor pl-0 pr-0 ">
                                         <a class="navbar-brand" href="{{route('index', App::getLocale())}}">
                                                 <img src="{{asset('assets/images/tryp_by_wyndham_topkapi.png')}}" style="max-width: 143px;"class="header-logo d-none d-md-block">
                                                 <img src="{{asset('assets/images/tryp_by_wyndham_topkapi.png')}}" class="d-md-none d-lg-none d-xl-none logos">
@@ -47,7 +47,9 @@
                                                 <a style='margin-left:10px;' href="{{route(Route::currentRouteName(), 'tr')}}">
                                                         <img src="{{asset('assets/images/TR.png')}}" />
                                                 </a>
-                                                <a style='margin-left:10px;' href="{{route(Route::currentRouteName(), 'en')}}"><img src="{{asset('assets/images/EN.png')}}" /></a>
+                                                <a style='margin-left:10px;' href="{{route(Route::currentRouteName(), 'en')}}">
+                                                        <img src="{{asset('assets/images/EN.png')}}" />
+                                                </a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarCollapse" aria-controls="navbarCollapse"aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon">

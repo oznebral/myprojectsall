@@ -2,14 +2,12 @@
 @section('title', 'Page Title')
 
 @section('content')
-<div id="ctl00_ContentPlaceHolder1_PanelIcerik">
-        <section id="home">
-                <div class="container-fluid pad_remove">
-                        <div class='bannerresim'
-                                style="background-image: url('{{asset('assets/images/resim.png')}}');height: 340px;background-repeat: no-repeat;background-size: 100% auto;">
-                        </div>
-                </div>
-        </section>
+<div id="ctl00_ContentPlaceHolder1_PanelIcerik"style="background-color:#fff">
+        <div class="container-fluid"style="background-color:#fff">
+        <div class="container">   
+                <img src="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Meeting Room - Long Boardroom Table - 1437736.jpg')}}" class="img-rounded" alt="Cinque Terre" width="100%" height="450"> 
+        </div>
+        </div>
         <section id="preview"style="background-color:#fff">
                 <div class="container" style="padding-bottom: 20px;">
                         <div class="row">

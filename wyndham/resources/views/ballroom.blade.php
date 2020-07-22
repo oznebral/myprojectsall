@@ -3,15 +3,9 @@
 
 @section('content')
    <div id="ctl00_ContentPlaceHolder1_PanelIcerik" style="background-color:#fff">
-        <section id="home">
-                <div class="container-fluid pad_remove">
-                        <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
-                                <div class='bgput'
-                                        style="background-position: center center;height: 35vh;background-image:url('{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}');">
-                                </div>
-                        </div>
-                </div>
-        </section>
+   <div class="container">   
+                <img src="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Breakfast Area - 1437688.jpg')}}" class="img-rounded" alt="Cinque Terre" width="100%" height="400"> 
+        </div>
         <section id="preview">
                 <div class="container" style="padding-bottom: 20px;">
                         <div class="row">

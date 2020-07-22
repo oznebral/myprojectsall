@@ -8,13 +8,15 @@
                 <div class="container-fluid pad_remove">
                         <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'></div>
                         <a href='javascript:void(0)' class='tikback'style='position: absolute; left: 20px; color: #21304d;'>
-                                <img class='prevbuttonlar a' src="{{asset('assets/images/prev.png')}}"></a>
+                                <img class='prevbuttonlar a' src="{{asset('assets/images/prev.png')}}">
+                        </a>
                         <a href='javascript:void(0)' class='tiknext' style='position: absolute; right: 20px; color: #21304d;'>
-                                <img class='prevbuttonlar b' src="{{asset('assets/images/next.png')}}"></a>
+                                <img class='prevbuttonlar b' src="{{asset('assets/images/next.png')}}">
+                        </a>
                 </div>
         </section>
         <section id="our-hotel">
-                <div class="container-fluid" style="/*margin-top:10px;*/">
+                <div class="container-fluid" style="margin-top:10px;">
                         <div class="row hotel-about-size"
                                 style="background-color:#dedede!important;">
                                 <div class="col-md-12 block_info-wrapper text-center">

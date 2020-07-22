@@ -2,10 +2,10 @@
 @section('title', 'Page Title')
 
 @section('content')
-<div id="ctl00_ContentPlaceHolder1_PanelIcerik">
+<div id="ctl00_ContentPlaceHolder1_PanelIcerik"style='background-color:#fff'>
         <section id="home">
-                <div class="container-fluid pad_remove">
-                        <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
+                <div class="container-fluid ">
+                        <div class='multiple-items' style='margin-bottom: 10px;'>
                                 <div>
                                         <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - Lobby - 1437720.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'

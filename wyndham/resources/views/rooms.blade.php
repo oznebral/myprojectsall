@@ -2,10 +2,10 @@
 @section('title', 'Page Title')
 
 @section('content')
-<div id="ctl00_ContentPlaceHolder1_PanelHomepage">
+<div id="ctl00_ContentPlaceHolder1_PanelHomepage"style='background-color:#fff'>
         <section id="homese">
-                <div class="container-fluid pad_remove">
-                        <div class='multiple-items overflow-hidden' style='margin-bottom: 10px;'>
+                <div class="container-fluid">
+                        <div class='multiple-items' style='margin-bottom: 10px;'>
                                 <div>
                                         <a href="{{asset('assets/images/Tryp by Wyndham Istanbul Topkapi - 1 DBL 1 T Sofa Bed Family - 1437765.jpg')}}" data-fancybox='group1'data-caption=''>
                                                 <div class='bgput'
@@ -63,12 +63,7 @@
                                         </a>
                                 </div>
                         </div>
-                        <a href='javascript:void(0)' class='tikback'style='position: absolute; left: 20px; color: #21304d;'>
-                                <img class='prevbuttonlar a' src="{{asset('assets/images/prev.png')}}">
-                        </a>
-                        <a href='javascript:void(0)' class='tiknext'style='position: absolute; right: 20px; color: #21304d;'>
-                                <img class='prevbuttonlar b' src="{{asset('assets/images/next.png')}}">
-                        </a>
+                     
                 </div>
         </section>
         <section id="ctl00_ContentPlaceHolder1_previews" style="background-color:#fff">
@@ -76,7 +71,6 @@
                         <div class="col-md-12 block_info-wrapper">
                                 <div class="block_info">
                                         <h1 style="font-weight: 400;"><br/>{{__('general.rooms')}}</h1>
-                                        <div class="clearfix"></div>
                                 </div>
                         </div>
                 </div>

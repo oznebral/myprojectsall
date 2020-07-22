@@ -73,12 +73,6 @@
                 </div>
         </section>
         <section id="preview"style="background-color:#fff">
-                <a href='javascript:void(0)' class='tikback'style='position: absolute; left: 20px; color: #21304d;'>
-                        <img class='prevbuttonlar a' src="{{asset('assets/images/prev.png')}}">
-                </a>
-                <a href='javascript:void(0)' class='tiknext'style='position: absolute; right: 20px; color: #21304d;'>
-                        <img class='prevbuttonlar b' src="{{asset('assets/images/next.png')}}">
-                </a>
                 <div class="container" style="padding-bottom: 20px;">
                         <div class="row">
                                 <div class="col-md-12 block_info-wrapper">

@@ -83,7 +83,7 @@
                         <div class="row">
                                 <div class="col-md-12 block_info-wrapper">
                                         <div class="block_info">
-                                                <h1 style="font-weight: 400;">{{__('general.la-carte-restaurant')}}</h1>
+                                                <h1 style="font-weight: 400;"><br/>{{__('general.la-carte-restaurant')}}</h1>
                                                 <div class="clearfix"></div>
                                         </div>
                                 </div>

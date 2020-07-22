@@ -75,7 +75,7 @@
                 <div class="container" style="padding-bottom: 20px;">
                         <div class="col-md-12 block_info-wrapper">
                                 <div class="block_info">
-                                        <h1 style="font-weight: 400;">{{__('general.rooms')}}</h1>
+                                        <h1 style="font-weight: 400;"><br/>{{__('general.rooms')}}</h1>
                                         <div class="clearfix"></div>
                                 </div>
                         </div>
